@@ -67,11 +67,11 @@ html {
     box-shadow: 0 0 0 8px #92c5fd;
 }
 
-.btn:hover {
+#btn:hover {
     background-color: #1346b7;
 }
 
-.btn {
+#btn {
     background-color: #1a56db;
     padding: 10px 20px;
     border-radius: 8px;
@@ -92,9 +92,11 @@ html {
 }
 
 #error-text {
+    display: none;
     color: #f04438;
 }
 
 #success-text {
+    display: none;
     color: #00aa4a;
 }
